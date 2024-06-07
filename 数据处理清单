@@ -1,0 +1,67 @@
+5月31日下机数据
+√CQT2024031305-F006: ywx_10x_5（质控分析，人，合同数据量，搜集表样本数2，已有样本数1（已有的样本为之前遇到chain detection fail的））（开跑/cqproj51/Project/SC_CQT2024031305-F006_human_2024-05-30，跑完，shared_folder）（基因中位数非常少，只有92）（上传系统）
+√CQT2024030507-F004: JLT255（定量分析，人，合同数据量，搜集表样本数3，已有样本数1）（开跑/cqproj51/Project/SC_CQT2024030507-F004_human_2024-05-30，跑完，shared_folder）
+	特殊物种：
+CQT2024051503-F001: C2_5, A2_5, B2_5, A1_5, A3_5, B1_5（质控分析，猕猴，合同数据，搜集表样本数10，已有样本数0）（MobiNova测序）（从ensembl下载猕猴(macaca_mulatta, release-112)的基因组和GTF文件到/cqproj51/Project/SC_CQT2024051503-F001_macaca_2024-06-05）（跑array=1；开跑/cqproj51/Project/SC_CQT2024051503-F001_macaca_2024-06-05）（需要在cqproj3上进行分析）（构建mobivision需要用的参考基因组/cqproj3/Software/Pipelines/mobivision_ref/macaca）（复制原始数据到/cqproj3/Rawdata/20240531）（分析路径/cqproj3/Project/SC_CQT2024051503-F001_macaca_20240606）（创建软链接）（开跑）
+	数据有问题：
+√CQT2024042602-F001: 1_3_1, 2_3_1, 3_3_1, 4_3_1, 5_3_1, 6_3_1, 7_3_1, 8_3_1（定量分析（全部文件），需要bam，人，合同数据，搜集表样本数8，已有样本数0） （已备份全部样本）（开跑/cqproj51/Project/SC_CQT2024042602-F001_human_2024-05-13，跑完，shared_folder）（细胞数偏少都低于7000）（样本4的基因中位数远少于加测数，需要看看加测数据的数据分布情况；设定基因中位数在1500左右后得到的细胞数2100+）（上传系统）
+√CQT2023020608-F015: GW13_419_2_M_3（定量分析，人，合同数据，搜集表样本数9，已有样本数8）（备份样本）（开跑/cqproj51/Project/SC_CQT2023020608-F015_human_2024-05-27，跑完，shared_folder）（cellranger的html报High Fraction of Reads Mapped Antisense to Genes错误）（上传系统）
+√CQT2023020608-F011: GW22_1_FB_3, GW22_2_FB_3（定量分析，人，合同数据，搜集表样本数11，已有样本数9（ GW18_3_FB_3为测试数据））（备份样本）（开跑/cqproj51/Project/SC_CQT2023020608-F011_human_2024-05-27，跑完，shared_folder）（cellranger的html报High Fraction of Reads Mapped Antisense to Genes错误）
+	需要等数据齐全的BD：
+CQT2024031410-F002: 02_Tissue_pre_TCR_2,  02_PBMC_pre0_TCR_2（质控分析，人，合同数据，信息搜集表样本数6，已有样本0）（BD，用'_2'的数据，需要等转录组+TCR+BCR都齐了才执行定量）（可在cqproj51上执行array=1）（开跑/cqproj51/Project/SC_CQT2024031410-F002_human_20240603，跑完）（复制原始数据到/cqproj3/Rawdata/20240531）
+
+6月1日下机数据
+√CQT2024052302-F001: caijiamiao_TCR, wangxuemei_5, chuqi_5, caijiamiao_BCR, caijiamiao_5, wangxuemei_TCR（质控分析，人，合同数据量，搜集表样本数9，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024052302-F001_human_2024-06-04，跑完，shared_folder）
+√CQT2024012301-F010: 2101_03_post_TCR, 2101_13_pre_5, 2101_03_post_5, 2101_13_pre_TCR, 2101_13_pre_BCR（定量分析（全部文件），需要bam，人，合同数据量，搜集表样本数6，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024012301-F010_human_2024-06-03，跑完，shared_folder）
+√CQT2024012301-F011: 2101_05_post_TCR, 2101_05_post_5, 2101_05_post_BCR（定量分析（全部文件），需要bam，人，合同数据量，搜集表样本数10，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024012301-F011_human_2024-06-04，跑完，shared_folder）
+√CQT2024031305-F009: LBY_2_1_TCR（质控分析，人，合同数据量，搜集表样本数2，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024031305-F009_human_2024-06-04，跑完，shared_folder）
+√CQT2023020608-F011: GW18_3_FB_3（定量分析，人，合同数据，搜集表样本数11，已有样本数10）（备份数据）（开跑/cqproj51/Project/SC_CQT2023020608-F011_human_2024-05-27，跑完，shared_folder）（cellranger的html报High Fraction of Reads Mapped Antisense to Genes错误）（上传系统）
+√CQT2024050710-F001: L_3_WTA, L_2_WTA, L_1_WTA（标准分析，小鼠，合同数据量，搜集表样本数3，已有样本数0）（BD测序，复制原始数据到/cqproj3/Rawdata/20240601）（开跑/cqproj3/Project/BD_CQT2024050710-F001_mmu_20240604，跑完，shared_folder）（运营06/05要求暂时先不标准分析，先定量结题）
+	需要等数据齐全的BD：
+CQT2024031410-F002: 02_Tissue_pre_BCR_2, 02_PBMC_pre0_BCR_2（质控分析，人，合同数据，信息搜集表样本数6，已有样本0）（BD，用'_2'的数据，需要等转录组+TCR+BCR都齐了才执行定量）（可在cqproj51上执行array=1）（开跑/cqproj51/Project/SC_CQT2024031410-F002_human_20240603，跑完，shared_folder）（复制原始数据到/cqproj3/Rawdata/20240601）
+
+6月2日下机数据
+√CQT2024041608-F001: sp_eos_WTA, bm_eos_WTA, sp_mast_WTA, sp_neu_WTA, t_mast_WTA（定量分析，小鼠，合同数据量（t_mast和sp_eos为测试数据），搜集表样本数12，已有样本数4（均为测试数据））（BD测序，复制原始数据到/cqproj3/Rawdata/20240602）（备份sp_mast和sp_neu数据）（开跑/cqproj3/Project/BD_CQT2024041608-F001_mmu_20240528，跑完，shared_folder）
+√CQT2024012501-F001: LWY_LV_3（高级分析+个性化，人，合同数据量，搜集表样本数1，已有样本数0）（备份样本）（开跑/cqproj51/Project/SC_CQT2024012501-F001_human_2024-04-18，跑完，shared_folder）
+
+6月3日下机数据
+√CQT2024041703-F001: AP_2_5（质控分析，小鼠，合同数据量，搜集表样本数20，已有样本数19）（备份样本）（开跑/cqproj51/Project/SC_CQT2024041703-F001_mouse_2024-04-22，跑完，shared_folder，上传系统）
+√CQT2024031305-F009: LBY_2_1_5（质控分析，人，合同数据量，搜集表样本数2，已有样本数1）（开跑/cqproj51/Project/SC_CQT2024031305-F009_human_2024-06-04，跑完，shared_folder）（细胞数偏少只有5800+）（上传系统）
+√CQT2024031406-F001: CTL_1_5, CTL_2_5（高级分析+个性化+联合分析，需要bam，小鼠，合同数据，搜集表样本数18，已有样本数18（含有测试数据））（下载数据/cqproj51/Rawdata/2024-06-03/CQT2024031406-F001_additional_test，检查MD5，合并数据到/cqproj51/Rawdata/2024-06-03/CQT2024031406-F001，合并后的数据量反而比合并前的稍微小一点？）（备份样本）（开跑/cqproj51/Project/SC_CQT2024031406-F001_mouse_2024-05-17，跑完，shared_folder）
+
+6月4日下机数据
+√CQT2023092004-F002: SI02_3（高级分析+个性化，人，合同数据，搜集表样本数1，已有样本数0）（备份数据）（开跑/cqproj51/Project/SC_CQT2023092004-F002_human_2024-04-22，跑完，shared_folder）
+√CQT2023092004-F004: SI03_4W_3（高级分析+个性化，人，合同数据，搜集表样本数1，已有样本数0）（备份数据）（开跑/cqproj51/Project/SC_CQT2023092004-F004_human_2024-05-27，跑完，shared_folder）
+√CQT2024030507-F004: JLT938（定量分析，人，合同数据量，搜集表样本数3，已有样本数2）（开跑/cqproj51/Project/SC_CQT2024030507-F004_human_2024-05-30，跑完，shared_folder）
+√CQT2023111808-F001: NC1_3, D7_1_3, D7_3_3, D2_1_3, D2_3_3, D7_2_3（质控分析，小鼠，合同数据量，搜集表样本数9，已有样本数0）（开跑/cqproj51/Project/SC_CQT2023111808-F001_mouse_2024-06-05，跑完，shared_folder）
+CQT2024041608-F001: t_neu_WTA, bl_mast_WTA, bl_eos_WTA（定量分析，小鼠，合同数据量，搜集表样本数12，已有样本数9（一部分为测试数据））（BD测序，复制原始数据到/cqproj3/Rawdata/20240604）（项目路径/cqproj3/Project/BD_CQT2024041608-F001_mmu_20240528/）（貌似有网络问题，docker加载配置文件失败）
+	特殊物种：
+CQT2024051503-F001: B3_5（质控分析，猕猴，合同数据，搜集表样本数10，已有样本数6）（MobiNova测序）（复制原始数据到/cqproj3/Rawdata/20240604）（分析路径/cqproj3/Project/SC_CQT2024051503-F001_macaca_20240606）（创建软链接）（开跑）
+√CQT2024042607-F002: WT_3, IHT_3（质控分析，烟草，测试数据，搜集表样本数3，已有样本数1（测试数据））（备份样本）（开跑/cqproj51/Project/SC_CQT2024042607-F002_tobacco_2024-05-20，跑完，shared_folder）
+
+6月5日下机数据
+CQT2023080204-F023: P30_B_ZCX_5（定量分析，人，合同数据量，搜集表样本数3，已有样本数0）（开跑/cqproj51/Project/SC_CQT2023080204-F023_human_2024-06-07，跑完，shared_folder）（细胞数偏少6800+）
+√CQT2023051606-F006: HE_4_BCR（质控分析，小鼠，合同数据量，搜集表样本数1，已有样本数0）（开跑/cqproj51/Project/SC_CQT2023051606-F006_mouse_2024-06-06，跑完，shared_folder，上传系统）
+√CQT2024012301-F010: 2101_03_post_BCR（定量分析（全部文件），需要bam，人，合同数据量，搜集表样本数6，已有样本数5）（开跑/cqproj51/Project/SC_CQT2024012301-F010_human_2024-06-03，跑完，shared_folder）（分析报告上传云盘，上传系统）
+CQT2024012301-F011: 2101_14_pre_5（定量分析（全部文件），需要bam，人，合同数据量，搜集表样本数10，已有样本数3）（开跑/cqproj51/Project/SC_CQT2024012301-F011_human_2024-06-04，跑完，shared_folder）
+	特殊物种：
+CQT2024051503-F001: A4_5（质控分析，猕猴，合同数据，搜集表样本数10，已有样本数7）（MobiNova测序）（复制原始数据到/cqproj3/Rawdata/20240605）（分析路径/cqproj3/Project/SC_CQT2024051503-F001_macaca_20240606）（创建软链接）（开跑）
+
+6月6日下机数据
+CQT2023080204-F024: P31_B_CQ_5（质控分析，人，测试数据量，搜集表样本数3，已有样本数0）（开跑/cqproj51/Project/SC_CQT2023080204-F024_human_2024-06-07）
+CQT2024012501-F005: WYQ_LV1_3（标准分析，人，合同数据量，搜集表样本数1，已有样本数0）（备份样本）（开跑/cqproj51/Project/SC_CQT2024012501-F005_human_2024-05-21）
+CQT2024030507-F005: JTLrg260_3（定量分析，人，合同数据量，搜集表样本数1，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024030507-F005_human_2024-06-07）
+√CQT2024031305-F008: G8_Periton_3, G8_OvaryMR_3, G8_Primary_3, G8_OvaryML_3（质控分析，人，合同数据量，搜集表样本数4，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024031305-F008_human_2024-06-06，跑完，shared_folder，上传系统）
+CQT2024040916-F007: A007_3（质控分析，人，合同数据量，搜集表样本数1，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024040916-F007_human_2024-06-07）
+CQT2024052302-F001: chuqi_BCR（质控分析，人，合同数据量，搜集表样本数9，已有样本数6）（开跑/cqproj51/Project/SC_CQT2024052302-F001_human_2024-06-04）
+CQT2024052811-F001: SPLEEN_1_3, BLOOD_1_3（标准分析，人，合同数据量，搜集表样本数3，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024052811-F001_human_2024-06-07）
+	特殊物种：
+CQT2024051503-F001: B4_5（质控分析，猕猴，合同数据，搜集表样本数10，已有样本数8）（MobiNova测序）（开跑/cqproj3/Project/SC_CQT2024051503-F001_macaca_20240606）
+CQT2024042607-F002: OE_3（质控分析，烟草，测试数据，搜集表样本数3，已有样本数2）（备份样本）（开跑/cqproj51/Project/SC_CQT2024042607-F002_tobacco_2024-05-20）
+	BD测序：
+CQT2024031410-F002: 02_PBMC_pre0_WTA_2（质控分析，人，合同数据，信息搜集表样本数6，已有样本0）（BD测序，可同06/01日的BCR和05/31日的TCR数据一起跑）
+CQT2024041608-F001: bm_mast_WTA（定量分析，小鼠，合同数据量，搜集表样本数12，已有样本数9（一部分为测试数据））（BD测序，复制原始数据到/cqproj3/Rawdata/20240606）
+
+6月7日下机数据
+	特殊物种
+CQT2024051503-F001: C1_5（质控分析，猕猴，合同数据，搜集表样本数10，已有样本数9）（MobiNova测序）（开跑/cqproj3/Project/SC_CQT2024051503-F001_macaca_20240606）
