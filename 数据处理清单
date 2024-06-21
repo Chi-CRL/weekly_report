@@ -108,6 +108,50 @@ CQT2024050712-F004: JLTjr260_3（质控分析，人，测试数据，信息搜�
 CQT2024052811-F001: PDAC_1_3（标准分析，人，合同数据量，搜集表样本数3，已有样本数2）（开跑/cqproj51/Project/SC_CQT2024052811-F001_human_2024-06-07）
 CQT2024053106-F001: 1911027_CTC_3（定量分析，人，合同数据量，搜集表样本数1，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024053106-F001_human_2024-06-14）
 
+6月13日下机数据
+√CQT2023080204-F025: P33_B_XWH_BCR（质控分析，人，合同数据量，搜集表样本数3，已有样本数0）（开跑/cqproj51/Project/SC_CQT2023080204-F025_human_2024-06-18，跑完，shared_folder）
+√CQT2024031312-F005: ZZL20240531_5（质控分析，人，合同数据量，搜集表样本数4，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024031312-F005_human_2024-06-18，跑完，shared_folder）
+√CQT2024032617-F005: XM_03_1_5, XM_03_1_BCR, XM_03_1_TCR（定量分析，人，合同数据量，搜集表样本数3，已有样本数0）（备份掉之前的问题数据）（开跑/cqproj51/Project/SC_CQT2024032617-F005_human_2024-05-24，跑完，shared_folder）（XM_03_5的细胞数太少只有6400+）（上传系统）
+√CQT2024041807-F002: C3_B_CSS_TCR（质控分析，人，合同数据量，搜集表样本数3，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024041807-F002_human_2024-06-18，跑完，shared_folder）
+
+
+6月14日下机数据
+√CQT2023080204-F023: P30_B_ZCX_BCR, P30_B_ZCX_TCR（定量分析，人，合同数据量，搜集表样本数3，已有样本数1）（开跑/cqproj51/Project/SC_CQT2023080204-F023_human_2024-06-07，跑完，shared_folder，上传系统）
+√CQT2024031410-F003: 01_PBMC_post0_WTA_2, 01_Tissue_post_TCR_2, 01_Tissue_post_WTA_2（BD，等PBMC的TCR和Tissue的BCR）（传输原始数据到/cqproj3/Rawdata/20240614）
+√CQT2024041807-F002: C3_B_CSS_5（质控分析，人，合同数据量，搜集表样本数3，已有样本数1）（开跑/cqproj51/Project/SC_CQT2024041807-F002_human_2024-06-18，跑完，shared_folder）（细胞数偏少5200+）（上传系统）
+CQT2024050712-F003: JLTjr264_3（质控分析，人，测试数据，搜集表样本数1，已有样本数0）（MobiNova）（传输原始数据到/cqproj3/Rawdata/20240614）（开跑/cqproj3/Project/SC_CQT2024050712-F003_hsa_20240619，跑完，shared_folder）
+CQT2024052502-F001: OE3_3（标准分析，小鼠，合同数据量，搜集表样本数6，已有样本数2）（开跑/cqproj51/Project/SC_CQT2024052502-F001_mouse_2024-06-12，跑完，shared_folder）
+
+
+6月15日下机数据
+CQT2023080204-F025: P33_B_XWH_5（质控分析，人，测试数据，搜集表样本数3，已有样本数1）（开跑/cqproj51/Project/SC_CQT2023080204-F025_human_2024-06-18，跑完，shared_folder）（基因中位数偏少800+）
+√CQT2024031312-F005: ZDJ20240429AT_TCR（质控分析，人，合同数据量，搜集表样本数4，已有样本数1）（开跑/cqproj51/Project/SC_CQT2024031312-F005_human_2024-06-18，跑完，shared_folder，上传系统）
+
+
+6月16日下机数据
+CQT2023080204-F025: P33_B_XWH_TCR（质控分析，人，测试数据，搜集表样本数3，已有样本数2）（开跑/cqproj51/Project/SC_CQT2023080204-F025_human_2024-06-18，跑完，shared_folder）
+CQT2023121001-F004: FA13_3_3（标准分析，小鼠，测试数据量，搜集表样本数4，已有样本数3（含测试数据*2））（备份样本）（开跑/cqproj51/Project/SC_CQT2023121001-F004_mouse_2024-05-22，跑完，shared_folder）（fraction reads in cells偏低只有0.55）
+CQT2024031312-F005: ZDJ20240429AT_5, ZZL20240531_TCR（质控分析，人，合同数据量，搜集表样本数4，已有样本数2）（开跑/cqproj51/Project/SC_CQT2024031312-F005_human_2024-06-18）
+CQT2024031410-F003: 01_PBMC_post0_TCR_2, 01_Tissue_post_BCR_2（质控分析，人，合同数据量，搜集表样本数6，已有样本数0）（BD）（数据齐全可以开跑）（传输原始数据到/cqproj3/Rawdata/20240616）（开跑/cqproj3/Project/BD_CQT2024031410-F003_hsa_20240619）
+CQT2024041807-F002: C3_B_CSS_BCR（质控分析，人，合同数据量，搜集表样本数3，已有样本数2）（开跑/cqproj51/Project/SC_CQT2024041807-F002_human_2024-06-18，跑完，shared_folder）
+CQT2024052502-F001: CON3_3, OE1_3, OE2_3（标准分析，小鼠，合同数据量，搜集表样本数6，已有样本数3）（开跑/cqproj51/Project/SC_CQT2024052502-F001_mouse_2024-06-12，跑完，shared_folder）
+
+
+6月17日下机数据
+√CQT2024052306-F002: WT_PCT_3（标准分析，小鼠，合同数据，搜集表样本数1，已有样本数0）（备份样本）（开跑/cqproj51/Project/SC_CQT2024052306-F002_mouse_2024-06-17，跑完，shared_folder）（基因中位数只有25太少）（修改low.thresholds_nGene为0，跑SingleR流程）（上传系统）
+CQT2024041608-F001: bl_neu_WTA（定量分析，小鼠，合同数据量，搜集表样本数12，已有样本数11（一部分为测试数据？））（BD）（需要备份数据）
+CQT2024051307-F002: KO_1_3（定量分析，小鼠，合同数据，搜集表样本数2，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024051307-F002_mouse_2024-06-19，跑完，shared_folder）（细胞数偏少6500+）
+
+
+6月18日下机数据
+√CQT2024040916-F009: A001_3（质控分析，人，合同数据，搜集表样本数1，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024040916-F009_human_2024-06-19，跑完，shared_folder，上传系统）
+√CQT2024051307-F002: FL_1_3（定量分析，小鼠，合同数据，搜集表样本数2，已有样本数1）（开跑/cqproj51/Project/SC_CQT2024051307-F002_mouse_2024-06-19，跑完，shared_folder，上传系统）
+CQT2024031406-F002: PD1_BTLA_1_5, PD1_BTLA_2_5, PD1_BTLA_3_5, PD1_BTLA_4_5, PD1_TIGIT_1_5, PD1_TIGIT_2_5, PD1_TIGIT_3_5, PD1_TIGIT_4_5（高级分析+个性化+联合分析，小鼠，合同数据，搜集表样本数24，已有样本数16）（开跑/cqproj51/Project/SC_CQT2024031406-F002_mouse_2024-05-23）
+
+
+6月19日下机数据
+√CQT2024031406-F003: PLAG_1_BCR, PLAG_1_TCR, PLAG_2_TCR, PLAG_3_5, PLAG_3_BCR, PLAG_3_TCR, PLAG_4_5, PLAG_4_TCR, PVISTA_1_5, PVISTA_1_BCR, PVISTA_1_TCR, PVISTA_2_5, PVISTA_3_TCR, PVISTA_4_5, PVISTA_4_TCR（高级分析+个性化+联合分析，小鼠，合同数据，搜集表样本数30，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024031406-F003_mouse_2024-06-20，跑完，shared_folder）（PLAG_1_TCR, PLAG_1_BCR, PLAG_3_BCR，PVISTA_4_TCR, PVISTA_1_BCR有报错）
+√CQT2024031406-F004: PCTLA4_1_TCR, PCTLA4_2_TCR, PCTLA4_3_TCR, PCTLA4_4_TCR, PTIM3_1_5, PTIM3_1_TCR, PTIM3_2_5, PTIM3_2_TCR, PTIM3_3_5, PTIM3_4_5, PTIM3_4_TCR, PVSV1_5, PVSV1_TCR, PVSV2_5, PVSV2_TCR, PVSV3_TCR, PVSV4_TCR（高级分析+个性化+联合分析，小鼠，合同数据（PTIM3_2_TCR为测试数据），搜集表样本数36，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024031406-F004_mouse_2024-06-20，跑完，shared_folder）
 
 
 
