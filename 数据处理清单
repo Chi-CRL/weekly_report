@@ -311,8 +311,61 @@ CQT2024062607-F001: 045875_1_5（没有搜到信息搜集表）
 CQT2024070101-F001: IPF_tdh_1_3（标准分析，人，测试数据，搜集表样本数1，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024070101-F001_human_2024-07-09，跑完，shared_folder）（细胞数偏少6400）
 
 
+7月10日下机数据
+CQT2023041306-F004: 37_Ctrl_Skin_MA_3, 37_Ctrl_Tes_MA_3（没有搜到信息搜集表）
+CQT2024042602-F002: 9_3（定量分析，人鼠，合同数据，搜集表样本数9，已有样本数8）（参考基因组要求人和小鼠(GRCm39)参考基因组）（开跑/cqproj51/Project/SC_CQT2024042602-F002_human-and-mouse_2024-07-05，跑完，shared_folder）
+CQT2024042602-F003: E1_3（定量分析，人，合同数据，搜集表样本数2，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024042602-F003_human_2024-07-16，跑完，shared_folder）
+CQT2024051201-F001: CLP24h_3_3（质控分析，小鼠，合同数据，搜集表样本数9，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024051201-F001_mouse_2024-07-16，跑完，shared_folder）
+CQT2024051307-F004: CTRL_4_3（蔡跑/cqproj51/Project/SC_CQT2024051307-F004_human_2024-07-12）
+√CQT2024052915-F003: 0627LV_VSV2_cDNA（标准分析，小鼠，合同数据，搜集表样本数6，已有样本数5）（还差oligo）
 
 
+7月11日下机数据
+CQT2024052717-F002: ar2_3（蔡跑/cqproj51/Project/SC_CQT2024052717-F002_human_2024-07-16）（细胞数3300+和基因中位数950+偏少）
+CQT2024052811-F002: SPLEEN_2_3, SPLEEN_3_3（标准分析，人，合同数据，搜集表样本数9，已有样本数7）（开跑/cqproj51/Project/SC_CQT2024052811-F002_human_2024-07-05）
+CQT2024052915-F003: 0627LV_VSV2_oligo（标准分析，小鼠，合同数据，搜集表样本数6，已有样本数5）（数据齐全）（开跑/cqproj51/Project/C4_CQT2024052915-F003_mouse_2024-07-10，跑完，shared_folder）
+CQT2024060303-F001: 622ZZH_5（蔡跑/cqproj51/Project/SC_CQT2024060303-F001_human_2024-07-16）
+CQT2024060604-F001: JYYXhjh_cDNA-wk（质控分析，人，合同数据，搜集表样本数1，已有样本数0）（C4）（开跑/cqproj51/Project/C4_CQT2024060604-F001_human_2024-06-30，跑完，shared_folder）
+CQT2024062907-F001: Pc_1_3, Pc_2_3（蔡跑/cqproj51/Project/SC_CQT2024062907-F001_human_2024-07-16）（Pc_2细胞数5600+偏少）
 
+
+7月11日
+CQT2024061711-F002: A_5, A_BCR, A_TCR, B_5, B_BCR, B_TCR（开跑/cqproj51/Project/SC_CQT2024061711-F002_human_2024-07-11）
+制作BD定量报告模板和脚本（未完成）
+重跑CQT2024031406-F005李凯的36例样本整合（改为不使用SCT的方法（cqproj2; Res=0.6）+给MASS方法添加--nsample参数）
+
+
+7月15日
+CQT2024060604-F003：华大C4单样本标准分析，数据来源是CQT2024060604-F002的数据（/cqproj22/Project/SC_CQT2024060604-F003_human_20240710，完成，去除公司logo和信息，上传系统）
+CQT2024070101-F001: IPF_tdh_1_3（标准分析，人，合同数据，搜集表样本数1，已有样本数0）（开跑/cqproj51/Project/SC_CQT2024070101-F001_human_2024-07-09，跑完，shared_folder）
+CQT2024031406-F005李凯的36例样本使用自定义markers进行细胞定义
+制作10X, BD, C4, MobiNova的标准分析报告模板和脚本
+
+
+7月16日
+CQT2023111808-F002: 标准分析（整合+自动定义）（数据来源是F001，共9个样本）去除名字中间的空格，执行组间差异分析，重新生成报告
+CQT2023092004-F005：标准分析（整合+自动定义）（数据来源是F001-F004，共4个样本）
+CQT2024062808-F001: TN_3（开跑/cqproj51/Project/SC_CQT2024062808-F001_human_2024-07-16）
+转移/cqproj5/Rawdata/2024-05-01~2024-05-09的数据到/cqproj51/Rawdata
+CQT2024011621-F001: Pex1-Pex6_cKO_3（仅加测）（合并数据到/cqproj51/Rawdata/2024-07-13）
+CQT2024060604-F001: JYYXhjh_cDNA-wk（C4）（开跑/cqproj51/Project/C4_CQT2024060604-F001_human_2024-06-30）
+CQT2024051307-F003+CQT2024051307-F004的原始数据烤盘
+继续开发BD的报告
+
+7月18日
+CQT2024061818-F001原始数据上传百度云盘
+CQT2024011621-F001: Pex1-Pex6_cKO_3（合并数据到/cqproj51/Rawdata/2024-07-13）（开跑/cqproj51/Project/SC_CQT2024011621-F001_mouse_2024-07-18）
+CQT2024052811-F002: SPLEEN_2_3, SPLEEN_3_3（开跑/cqproj51/Project/SC_CQT2024052811-F002_human_2024-07-05）
+CQT2024060410-F001: AK_3, L_A_KO_3, L_Y_KO_3, N_A_KO_3, N_A_WT_3, N_Y_KO_3, N_Y_WT_3, YK_3（备份样本）（开跑/cqproj51/Project/SC_CQT2024060410-F001_mouse_2024-06-30）
+CQT2024053106-F005: 1911027brm_3（开跑/cqproj51/Project/SC_CQT2024053106-F005_human_2024-07-18）
+CQT2023080204-F025: P33_B_XWH_5（备份样本）（开跑/cqproj51/Project/SC_CQT2023080204-F025_human_2024-06-18）
+CQT2023121001-F005: FA13_2_3（备份样本）（开跑/cqproj51/Project/SC_CQT2023121001-F005_mouse_2024-07-05）
+开发BD报告
+
+7月19日
+CQT2023020608-F009/F011/F015上传矩阵文件到百度云盘
+CQT2024062808-S001重新调整细胞定义（用户提供Neurons的markers）后重跑分析
+CQT2024052306-S002血小板个性化：1、需要调整一下resolution，把cluster数目调整到3左右看下，核心marker基因热图
+开发BD报告+BD报告自动化脚本
 
 
